@@ -30,7 +30,7 @@ src/
        │   └── FileStorage.java 
        └── org.example.ui 
            └── ConsoleUI.java
-```bash
+bash```
 ## ⚙️ Как запустить
 
 1. Склонируйте проект:
@@ -44,6 +44,7 @@ cd todo-java-console
 javac -d out $(find ./src -name "*.java")
 java -cp out org.example.Main
 ```bash
+Либо открой в IntelliJ IDEA или другой IDE.
 ## 📂 Сохранение задач
 Задачи сохраняются в: target/tasks.json
 
