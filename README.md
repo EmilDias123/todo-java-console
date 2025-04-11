@@ -18,7 +18,7 @@
 - Maven (опционально)
 
 ## 📁 Структура проекта
-
+```bash
 src/
    ├── org.example 
    │   └── Main.java 
@@ -30,7 +30,7 @@ src/
        │   └── FileStorage.java 
        └── org.example.ui 
            └── ConsoleUI.java
-
+```bash
 ## ⚙️ Как запустить
 
 1. Склонируйте проект:
@@ -38,15 +38,17 @@ src/
 ```bash
 git clone https://github.com/EmilDias123/todo-java-console.git
 cd todo-java-console
-
+```bash
 2. Скомпилируйте и запустите:
+```bash
 javac -d out $(find ./src -name "*.java")
 java -cp out org.example.Main
-
+```bash
 ## 📂 Сохранение задач
 Задачи сохраняются в: target/tasks.json
 
 Формат хранения:
+```bash
 [
   {
     "id": 0,
@@ -55,7 +57,7 @@ java -cp out org.example.Main
     "done": false
   }
 ]
-
+```bash
 ## 💻 Интерфейс
 
 1 - Добавление новой задачи
