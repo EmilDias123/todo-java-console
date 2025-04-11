@@ -1,0 +1,13 @@
+package org.example;
+
+import org.example.ui.ConsoleUI;
+
+import java.io.IOException;
+
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        System.out.println("Создатель Юрий Черединов");
+        new ConsoleUI().run();
+    }
+}
