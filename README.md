@@ -34,16 +34,15 @@ src/
 ## ⚙️ Как запустить
 
 1. Склонируйте проект:
-
 ```bash
 git clone https://github.com/EmilDias123/todo-java-console.git
 cd todo-java-console
-```bash
+```
 2. Скомпилируйте и запустите:
 ```bash
 javac -d out $(find ./src -name "*.java")
 java -cp out org.example.Main
-```bash
+```
 Либо открой в IntelliJ IDEA или другой IDE.
 ## 📂 Сохранение задач
 Задачи сохраняются в: target/tasks.json
@@ -58,7 +57,7 @@ java -cp out org.example.Main
     "done": false
   }
 ]
-```bash
+```
 ## 💻 Интерфейс
 
 1 - Добавление новой задачи
