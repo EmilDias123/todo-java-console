@@ -30,7 +30,7 @@ src/
        │   └── FileStorage.java 
        └── org.example.ui 
            └── ConsoleUI.java
-bash```
+```
 ## ⚙️ Как запустить
 
 1. Склонируйте проект:
